@@ -42,6 +42,7 @@
   font-family: "Arial";
 }
 
+
 @media(max-width: 767px) {
   .footer-gr-container {
     padding-left: var(--dl-space-space-unit);
