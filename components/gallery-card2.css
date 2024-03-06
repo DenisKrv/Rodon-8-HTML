@@ -80,6 +80,13 @@
 
 
 
+.gallery-card2-root-class-name11 {
+  flex: 1;
+}
+
+
+
+
 @media(max-width: 767px) {
   .gallery-card2-gallery-card {
     flex-direction: column;
