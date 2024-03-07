@@ -20,6 +20,7 @@
   font-weight: 500;
   line-height: 150%;
   text-transform: capitalize;
+  text-decoration: none;
 }
 .header-desktop-menu {
   flex: 1;
@@ -170,6 +171,7 @@
 }
 
 
+
 @media(max-width: 991px) {
   .header-navbar-interactive {
     padding-left: var(--dl-space-space-unit);
@@ -192,6 +194,10 @@
     margin-left: var(--dl-space-space-halfunit);
   }
   .header-root-class-name1 {
+    top: 0px;
+    left: 0px;
+  }
+  .header-root-class-name2 {
     top: 0px;
     left: 0px;
   }

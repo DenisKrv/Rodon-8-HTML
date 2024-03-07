@@ -43,6 +43,17 @@
 }
 
 
+@media(max-width: 991px) {
+  .footer-gr-container {
+    position: relative;
+  }
+  .footer-gr-text {
+    margin-right: var(--dl-space-space-halfunit);
+  }
+  .footer-gr-text1 {
+    margin-left: var(--dl-space-space-halfunit);
+  }
+}
 @media(max-width: 767px) {
   .footer-gr-container {
     padding-left: var(--dl-space-space-unit);
