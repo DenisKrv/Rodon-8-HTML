@@ -537,18 +537,14 @@
   font-family: "Tahoma";
   font-weight: 400;
 }
-.commercial-properties-en-text002 {
+.commercial-properties-en-text02 {
   font-size: 3rem;
   text-align: center;
   font-family: "Tahoma";
 }
-.commercial-properties-en-text003 {
+.commercial-properties-en-text03 {
   font-style: normal;
   font-weight: 400;
-}
-.commercial-properties-en-hero-sub-heading {
-  font-size: 18px;
-  text-align: center;
 }
 .commercial-properties-en-gallery {
   width: 100%;
@@ -580,7 +576,7 @@
   height: auto;
   object-fit: cover;
 }
-.commercial-properties-en-text019 {
+.commercial-properties-en-text05 {
   color: var(--dl-color-gray-700);
   margin-top: var(--dl-space-space-twounits);
   text-align: center;
@@ -639,14 +635,14 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-twounits);
 }
-.commercial-properties-en-text043 {
+.commercial-properties-en-text29 {
   font-size: 2.5rem;
   font-style: normal;
   text-align: center;
   font-family: "Tahoma";
   font-weight: 400;
 }
-.commercial-properties-en-text044 {
+.commercial-properties-en-text30 {
   color: var(--dl-color-gray-700);
   margin-top: var(--dl-space-space-twounits);
   text-align: center;
@@ -668,14 +664,14 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.commercial-properties-en-text051 {
+.commercial-properties-en-text37 {
   font-size: 2.5rem;
   font-style: normal;
   text-align: center;
   font-family: "Tahoma";
   font-weight: 500;
 }
-.commercial-properties-en-text052 {
+.commercial-properties-en-text38 {
   font-size: 18px;
   max-width: var(--dl-size-size-maxwidth);
   font-style: normal;
@@ -693,14 +689,14 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.commercial-properties-en-text053 {
+.commercial-properties-en-text39 {
   font-size: 2.5rem;
   font-style: normal;
   text-align: center;
   font-family: "Tahoma";
   font-weight: 500;
 }
-.commercial-properties-en-text054 {
+.commercial-properties-en-text40 {
   font-size: 20px;
   max-width: var(--dl-size-size-maxwidth);
   align-self: center;
@@ -711,7 +707,7 @@
   font-weight: 500;
   margin-bottom: var(--dl-space-space-twounits);
 }
-.commercial-properties-en-text069 {
+.commercial-properties-en-text55 {
   font-size: 20px;
   max-width: var(--dl-size-size-maxwidth);
   align-self: center;
@@ -739,7 +735,7 @@
   align-items: center;
   justify-content: center;
 }
-.commercial-properties-en-text094 {
+.commercial-properties-en-text80 {
   font-size: 1.5em;
 }
 .commercial-properties-en-image2 {
@@ -757,7 +753,7 @@
   align-items: center;
   justify-content: center;
 }
-.commercial-properties-en-text095 {
+.commercial-properties-en-text81 {
   font-size: 1.5em;
 }
 .commercial-properties-en-image3 {
@@ -775,7 +771,7 @@
   align-items: center;
   justify-content: center;
 }
-.commercial-properties-en-text096 {
+.commercial-properties-en-text82 {
   font-size: 1.5em;
 }
 .commercial-properties-en-image4 {
@@ -812,10 +808,10 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.commercial-properties-en-text100 {
+.commercial-properties-en-text86 {
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.commercial-properties-en-text101 {
+.commercial-properties-en-text87 {
   text-align: left;
 }
 .commercial-properties-en-container11 {
@@ -856,11 +852,6 @@
   .commercial-properties-en-hero-heading {
     text-align: center;
   }
-  .commercial-properties-en-hero-sub-heading {
-    text-align: center;
-    padding-left: var(--dl-space-space-threeunits);
-    padding-right: var(--dl-space-space-threeunits);
-  }
   .commercial-properties-en-container02 {
     width: 100%;
   }
@@ -871,7 +862,7 @@
     width: 400px;
     height: auto;
   }
-  .commercial-properties-en-text019 {
+  .commercial-properties-en-text05 {
     text-align: center;
   }
   .commercial-properties-en-features-sub-heading {
@@ -879,22 +870,22 @@
     padding-left: var(--dl-space-space-threeunits);
     padding-right: var(--dl-space-space-threeunits);
   }
-  .commercial-properties-en-text044 {
+  .commercial-properties-en-text30 {
     text-align: center;
   }
   .commercial-properties-en-container05 {
     grid-template-columns: 1fr 1fr 1fr;
   }
-  .commercial-properties-en-text052 {
+  .commercial-properties-en-text38 {
     max-width: 100%;
   }
-  .commercial-properties-en-text054 {
+  .commercial-properties-en-text40 {
     max-width: 100%;
   }
-  .commercial-properties-en-text069 {
+  .commercial-properties-en-text55 {
     max-width: 100%;
   }
-  .commercial-properties-en-text101 {
+  .commercial-properties-en-text87 {
     text-align: center;
     padding-left: var(--dl-space-space-threeunits);
     padding-right: var(--dl-space-space-threeunits);
@@ -908,10 +899,6 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .commercial-properties-en-hero-sub-heading {
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-  }
   .commercial-properties-en-gallery {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
@@ -922,7 +909,7 @@
   .commercial-properties-en-image1 {
     width: 300px;
   }
-  .commercial-properties-en-text019 {
+  .commercial-properties-en-text05 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
@@ -941,7 +928,7 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .commercial-properties-en-text044 {
+  .commercial-properties-en-text30 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
@@ -952,7 +939,7 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .commercial-properties-en-text052 {
+  .commercial-properties-en-text38 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
@@ -960,11 +947,11 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .commercial-properties-en-text054 {
+  .commercial-properties-en-text40 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
-  .commercial-properties-en-text069 {
+  .commercial-properties-en-text55 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
@@ -977,7 +964,7 @@
     align-items: center;
     justify-content: center;
   }
-  .commercial-properties-en-text101 {
+  .commercial-properties-en-text87 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
