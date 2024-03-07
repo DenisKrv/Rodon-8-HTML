@@ -115,9 +115,19 @@
 .header-top {
   width: 100%;
   display: flex;
+  position: relative;
+  align-self: center;
   align-items: center;
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
+}
+.header-logo1 {
+  font-size: 1.8em;
+  align-self: center;
+  font-family: STIX Two Text;
+  font-weight: 700;
+  line-height: 150%;
+  text-transform: uppercase;
 }
 .header-close-menu {
   display: flex;
@@ -132,24 +142,44 @@
 .header-links1 {
   flex: 0 0 auto;
   display: flex;
-  align-self: flex-start;
+  align-self: center;
   align-items: flex-start;
   flex-direction: column;
 }
 .header-nav121 {
+  font-size: large;
+  align-self: center;
+  font-family: Noto Sans;
+  font-weight: 400;
+  line-height: 150%;
   margin-bottom: var(--dl-space-space-unit);
 }
 .header-nav221 {
+  font-size: large;
+  align-self: center;
+  font-family: Noto Sans;
+  font-weight: 400;
+  line-height: 150%;
   margin-bottom: var(--dl-space-space-unit);
 }
 .header-nav321 {
+  font-size: large;
+  align-self: center;
+  font-family: Noto Sans;
+  font-weight: 400;
+  line-height: 150%;
   margin-bottom: var(--dl-space-space-unit);
 }
 .header-nav421 {
+  font-size: large;
+  align-self: center;
+  font-family: Noto Sans;
+  font-weight: 400;
+  line-height: 150%;
   margin-bottom: var(--dl-space-space-unit);
 }
 .header-buttons {
-  display: flex;
+  display: none;
   margin-top: var(--dl-space-space-unit);
   align-items: center;
   flex-direction: row;
@@ -193,6 +223,9 @@
     text-align: center;
     margin-left: var(--dl-space-space-halfunit);
   }
+  .header-buttons {
+    display: none;
+  }
   .header-root-class-name1 {
     top: 0px;
     left: 0px;
@@ -204,6 +237,7 @@
 }
 @media(max-width: 767px) {
   .header-navbar-interactive {
+    position: relative;
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
@@ -220,17 +254,47 @@
     width: var(--dl-size-size-small);
     height: var(--dl-size-size-small);
   }
+  .header-mobile-menu1 {
+    top: 24px;
+    right: 32px;
+    position: absolute;
+  }
+  .header-top {
+    position: relative;
+    align-self: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .header-close-menu {
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    align-self: center;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .header-icon02 {
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
+  }
+  .header-links1 {
+    align-self: center;
+  }
   .header-nav121 {
-    margin-bottom: var(--dl-space-space-unit);
+    align-self: center;
   }
   .header-nav221 {
-    margin-bottom: var(--dl-space-space-unit);
+    align-self: center;
   }
   .header-nav321 {
-    margin-bottom: var(--dl-space-space-unit);
+    align-self: center;
   }
   .header-nav421 {
-    margin-bottom: var(--dl-space-space-unit);
+    align-self: center;
+  }
+  .header-buttons {
+    display: none;
   }
 }
 @media(max-width: 479px) {
@@ -239,6 +303,12 @@
   }
   .header-mobile-menu1 {
     padding: 16px;
+  }
+  .header-icon02 {
+    margin-left: var(--dl-space-space-halfunit);
+  }
+  .header-buttons {
+    display: none;
   }
 }
 
@@ -260,7 +330,7 @@
   height: 100px;
   display: flex;
   position: relative;
-  align-items: center;
+  align-items: flex-end;
   padding-left: var(--dl-space-space-twounits);
   padding-right: var(--dl-space-space-twounits);
   justify-content: space-between;
@@ -372,8 +442,8 @@
   justify-content: center;
 }
 .home-image {
-  width: auto;
-  height: 563px;
+  width: var(--dl-size-size-maxwidth);
+  height: auto;
   object-fit: cover;
   margin-left: var(--dl-space-space-unit);
   margin-right: var(--dl-space-space-unit);
@@ -445,7 +515,8 @@
     width: auto;
   }
   .home-image {
-    width: auto;
+    width: var(--dl-size-size-maxwidth);
+    height: auto;
   }
   .home-image1 {
     width: 90%;
@@ -461,7 +532,7 @@
     height: auto;
   }
   .home-image {
-    width: auto;
+    width: 650px;
     height: auto;
   }
   .home-container5 {
@@ -484,6 +555,9 @@
 @media(max-width: 479px) {
   .home-container2 {
     height: 450px;
+  }
+  .home-image {
+    width: 450px;
   }
   .home-container5 {
     width: 120px;

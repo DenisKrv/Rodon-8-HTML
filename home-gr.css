@@ -109,15 +109,26 @@
 }
 .header-gr-nav {
   display: flex;
+  position: relative;
   align-items: flex-start;
   flex-direction: column;
 }
 .header-gr-top {
   width: 100%;
   display: flex;
+  position: relative;
+  align-self: center;
   align-items: center;
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
+}
+.header-gr-logo1 {
+  font-size: 1.8em;
+  align-self: center;
+  font-family: STIX Two Text;
+  font-weight: 700;
+  line-height: 150%;
+  text-transform: uppercase;
 }
 .header-gr-close-menu {
   display: flex;
@@ -132,24 +143,48 @@
 .header-gr-links1 {
   flex: 0 0 auto;
   display: flex;
-  align-self: flex-start;
+  align-self: center;
   align-items: flex-start;
   flex-direction: column;
 }
 .header-gr-nav121 {
+  font-size: large;
+  align-self: center;
+  font-family: Noto Sans;
+  font-weight: 400;
+  line-height: 150%;
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .header-gr-nav221 {
+  font-size: large;
+  align-self: center;
+  font-family: Noto Sans;
+  font-weight: 400;
+  line-height: 150%;
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .header-gr-nav321 {
+  font-size: large;
+  align-self: center;
+  font-family: Noto Sans;
+  font-weight: 400;
+  line-height: 150%;
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .header-gr-nav421 {
+  font-size: large;
+  align-self: center;
+  font-family: Noto Sans;
+  font-weight: 400;
+  line-height: 150%;
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .header-gr-buttons {
-  display: flex;
+  display: none;
   margin-top: var(--dl-space-space-unit);
   align-items: center;
   flex-direction: row;
@@ -192,6 +227,9 @@
     text-align: center;
     margin-left: var(--dl-space-space-halfunit);
   }
+  .header-gr-buttons {
+    display: none;
+  }
 }
 @media(max-width: 767px) {
   .header-gr-navbar-interactive {
@@ -211,17 +249,36 @@
     width: var(--dl-size-size-small);
     height: var(--dl-size-size-small);
   }
-  .header-gr-nav121 {
-    margin-bottom: var(--dl-space-space-unit);
+  .header-gr-top {
+    position: relative;
+    align-self: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .header-gr-close-menu {
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    align-self: center;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .header-gr-icon02 {
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
   }
   .header-gr-nav221 {
-    margin-bottom: var(--dl-space-space-unit);
+    align-self: center;
   }
   .header-gr-nav321 {
-    margin-bottom: var(--dl-space-space-unit);
+    align-self: center;
   }
   .header-gr-nav421 {
-    margin-bottom: var(--dl-space-space-unit);
+    align-self: center;
+  }
+  .header-gr-buttons {
+    display: none;
   }
 }
 @media(max-width: 479px) {
@@ -230,6 +287,12 @@
   }
   .header-gr-mobile-menu1 {
     padding: 16px;
+  }
+  .header-gr-icon02 {
+    margin-left: var(--dl-space-space-halfunit);
+  }
+  .header-gr-buttons {
+    display: none;
   }
 }
 
@@ -352,8 +415,8 @@
   justify-content: center;
 }
 .home-gr-image {
-  width: auto;
-  height: 563px;
+  width: var(--dl-size-size-maxwidth);
+  height: auto;
   object-fit: cover;
   margin-left: var(--dl-space-space-unit);
   margin-right: var(--dl-space-space-unit);
@@ -425,7 +488,8 @@
     width: auto;
   }
   .home-gr-image {
-    width: auto;
+    width: var(--dl-size-size-maxwidth);
+    height: auto;
   }
   .home-gr-image1 {
     width: 90%;
@@ -437,11 +501,14 @@
   }
 }
 @media(max-width: 767px) {
+  .home-gr-container1 {
+    height: auto;
+  }
   .home-gr-container3 {
     height: auto;
   }
   .home-gr-image {
-    width: auto;
+    width: 650px;
     height: auto;
   }
   .home-gr-container5 {
@@ -462,8 +529,14 @@
   }
 }
 @media(max-width: 479px) {
+  .home-gr-container1 {
+    height: auto;
+  }
   .home-gr-container2 {
     height: 450px;
+  }
+  .home-gr-image {
+    width: 450px;
   }
   .home-gr-container5 {
     width: 120px;
