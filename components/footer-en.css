@@ -15,7 +15,7 @@
   width: 100%;
   height: 100px;
   display: flex;
-  position: relative;
+  align-self: flex-end;
   align-items: flex-end;
   padding-left: var(--dl-space-space-twounits);
   padding-right: var(--dl-space-space-twounits);
