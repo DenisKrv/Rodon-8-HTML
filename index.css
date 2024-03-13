@@ -366,12 +366,16 @@
   flex-direction: column;
   justify-content: center;
 }
+.rodon8-main-container4 {
+  width: 100%;
+  height: auto;
+}
 .rodon8-main-container5 {
   display: contents;
 }
 .rodon8-main-container6 {
   flex: 0 0 auto;
-  width: 80%;
+  width: 100%;
   height: 100px;
   display: flex;
   position: relative;
