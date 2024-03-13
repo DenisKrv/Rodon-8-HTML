@@ -17,6 +17,7 @@
 .navbar-rodon8-logo {
   width: 200px;
   object-fit: cover;
+  text-decoration: none;
 }
 .navbar-rodon8-burger-menu {
   display: none;
@@ -54,9 +55,13 @@
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
+.navbar-rodon8-navlink1 {
+  display: contents;
+}
 .navbar-rodon8-logo1 {
   width: 200px;
   object-fit: cover;
+  text-decoration: none;
 }
 .navbar-rodon8-close-menu {
   display: flex;
@@ -97,6 +102,7 @@
 }
 .navbar-rodon8-description {
   color: #8e7c72;
+  display: none;
   font-size: large;
   align-self: center;
   font-family: Noto Sans;
@@ -184,10 +190,12 @@
   font-size: 23px;
 }
 .navbar-rodon8-description1 {
+  display: none;
   font-size: 20px;
+  font-style: normal;
   transition: 0.3s;
   font-family: "Raleway";
-  font-weight: 400;
+  font-weight: 500;
   line-height: 150%;
   margin-left: var(--dl-space-space-unit);
 }
@@ -196,9 +204,10 @@
 }
 .navbar-rodon8-property1 {
   font-size: 20px;
+  font-style: normal;
   transition: 0.3s;
   font-family: "Raleway";
-  font-weight: 400;
+  font-weight: 500;
   line-height: 150%;
   margin-left: var(--dl-space-space-unit);
   text-decoration: none;
@@ -208,9 +217,10 @@
 }
 .navbar-rodon8-contact1 {
   font-size: 20px;
+  font-style: normal;
   transition: 0.3s;
   font-family: "Raleway";
-  font-weight: 400;
+  font-weight: 500;
   line-height: 150%;
   margin-left: var(--dl-space-space-unit);
   text-decoration: none;
@@ -395,6 +405,13 @@
 }
 @media(max-width: 767px) {
   .rodon8-main-container2 {
+    width: auto;
     height: auto;
+    align-self: stretch;
+  }
+  .rodon8-main-container6 {
+    height: auto;
+    padding-top: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-unit);
   }
 }

@@ -7,6 +7,7 @@
   position: relative;
   align-items: flex-end;
   padding-top: var(--dl-space-space-twounits);
+  flex-direction: row;
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: center;
   background-color: #8c8080;
@@ -15,6 +16,13 @@
   color: rgb(255, 255, 255);
   text-align: center;
   line-height: 1.4;
+}
+.rodon8-footer-root-class-name {
+  top: 314px;
+  left: 0px;
+  width: 80%;
+  position: static;
+  align-self: center;
 }
 @media(max-width: 991px) {
   .rodon8-footer-rodon8-footer {
