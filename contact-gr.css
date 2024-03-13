@@ -14,16 +14,16 @@
   align-self: center;
   background-color: transparent;
 }
-.header-logo {
-  font-size: 2em;
-  font-family: "Source Sans 3";
-  font-weight: 500;
-  line-height: 150%;
-  text-transform: capitalize;
+.header-image {
+  width: auto;
+  height: auto;
+  max-width: 200px;
+  object-fit: cover;
   text-decoration: none;
 }
 .header-desktop-menu {
   flex: 1;
+  color: #8C8166;
   display: flex;
   align-items: flex-end;
   flex-direction: column;
@@ -122,13 +122,15 @@
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.header-logo1 {
-  font-size: 1.8em;
-  align-self: center;
-  font-family: STIX Two Text;
-  font-weight: 700;
-  line-height: 150%;
-  text-transform: uppercase;
+.header-navlink1 {
+  display: contents;
+}
+.header-image1 {
+  width: auto;
+  height: auto;
+  max-width: 200px;
+  object-fit: cover;
+  text-decoration: none;
 }
 .header-close-menu {
   display: flex;
@@ -208,9 +210,6 @@
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
-  .header-logo {
-    font-size: 1.8em;
-  }
   .header-nav22 {
     font-size: 20px;
     text-align: center;
@@ -227,11 +226,11 @@
   .header-buttons {
     display: none;
   }
-  .header-root-class-name1 {
+  .header-root-class-name2 {
     top: 0px;
     left: 0px;
   }
-  .header-root-class-name2 {
+  .header-root-class-name1 {
     top: 0px;
     left: 0px;
   }
@@ -252,6 +251,7 @@
     justify-content: center;
   }
   .header-icon {
+    fill: #8C8166;
     width: var(--dl-size-size-small);
     height: var(--dl-size-size-small);
   }
@@ -277,6 +277,7 @@
     justify-content: flex-end;
   }
   .header-icon02 {
+    fill: #BCB193;
     width: var(--dl-size-size-small);
     height: var(--dl-size-size-small);
   }
@@ -284,15 +285,19 @@
     align-self: center;
   }
   .header-nav121 {
+    color: #8C8166;
     align-self: center;
   }
   .header-nav221 {
+    color: #8C8166;
     align-self: center;
   }
   .header-nav321 {
+    color: #8C8166;
     align-self: center;
   }
   .header-nav421 {
+    color: #8C8166;
     align-self: center;
   }
   .header-buttons {
@@ -338,6 +343,7 @@
   justify-content: space-between;
 }
 .footer-en-text {
+  color: #8C8166;
   align-self: center;
   text-align: left;
   font-family: "Arial";
@@ -351,9 +357,10 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  background-color: #4e4e4e;
+  background-color: #8C8166;
 }
 .footer-en-text1 {
+  color: #8C8166;
   align-self: center;
   text-align: left;
   font-family: "Arial";

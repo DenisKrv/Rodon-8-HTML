@@ -379,9 +379,15 @@
 .rodon8-main-container4 {
   width: 100%;
   height: auto;
+  display: none;
 }
 .rodon8-main-container5 {
   display: contents;
+}
+.rodon8-main-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 .rodon8-main-container6 {
   flex: 0 0 auto;

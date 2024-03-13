@@ -22,6 +22,7 @@
   justify-content: space-between;
 }
 .footer-en-text {
+  color: #8C8166;
   align-self: center;
   text-align: left;
   font-family: "Arial";
@@ -35,9 +36,10 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  background-color: #4e4e4e;
+  background-color: #8C8166;
 }
 .footer-en-text1 {
+  color: #8C8166;
   align-self: center;
   text-align: left;
   font-family: "Arial";
