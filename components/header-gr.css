@@ -8,7 +8,7 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
   justify-content: flex-start;
-  background-image: linear-gradient(315deg, rgb(221, 227, 232) 1.00%,rgb(255, 249, 207) 98.00%);
+  background-color: #ffffff;
 }
 .header-gr-navbar-interactive {
   align-self: center;
@@ -106,6 +106,7 @@
   position: absolute;
   flex-direction: column;
   justify-content: space-between;
+  background-color: #ffffff;
 }
 .header-gr-nav {
   display: flex;
@@ -204,6 +205,7 @@
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
+
 
 
 @media(max-width: 991px) {

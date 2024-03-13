@@ -8,7 +8,7 @@
   align-items: flex-end;
   flex-direction: row;
   justify-content: flex-start;
-  background-image: linear-gradient(315deg, rgb(221, 227, 232) 1.00%,rgb(255, 249, 207) 98.00%);
+  background-color: #ffffff;
 }
 .footer-gr-container {
   flex: 0 0 auto;

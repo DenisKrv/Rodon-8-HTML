@@ -1,0 +1,1000 @@
+.navbar-rodon8-navbar-rodon8 {
+  width: 100%;
+  display: flex;
+  z-index: 1000;
+  position: relative;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.15);
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #ffffff;
+}
+.navbar-rodon8-navbar-interactive {
+  align-self: center;
+  background-color: transparent;
+}
+.navbar-rodon8-logo {
+  width: 200px;
+  object-fit: cover;
+}
+.navbar-rodon8-burger-menu {
+  display: none;
+}
+.navbar-rodon8-burger-menu1 {
+  width: var(--dl-size-size-xsmall);
+  cursor: pointer;
+  height: var(--dl-size-size-xsmall);
+  display: none;
+}
+.navbar-rodon8-mobile-menu1 {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 50vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.navbar-rodon8-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.navbar-rodon8-top {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-self: center;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.navbar-rodon8-logo1 {
+  width: 200px;
+  object-fit: cover;
+}
+.navbar-rodon8-close-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-rodon8-icon1 {
+  width: var(--dl-size-size-xsmall);
+  cursor: pointer;
+  height: var(--dl-size-size-xsmall);
+}
+.navbar-rodon8-links {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.navbar-rodon8-home {
+  color: #8e7c72;
+  font-size: large;
+  align-self: center;
+  font-family: Noto Sans;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.navbar-rodon8-events {
+  color: #8e7c72;
+  font-size: large;
+  align-self: center;
+  font-family: Noto Sans;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.navbar-rodon8-description {
+  color: #8e7c72;
+  font-size: large;
+  align-self: center;
+  font-family: Noto Sans;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.navbar-rodon8-property {
+  color: #8e7c72;
+  font-size: large;
+  align-self: center;
+  font-family: Noto Sans;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.navbar-rodon8-contact {
+  color: #8e7c72;
+  font-size: large;
+  align-self: center;
+  font-family: Noto Sans;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.navbar-rodon8-icon-group {
+  display: none;
+}
+.navbar-rodon8-icon3 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.navbar-rodon8-icon5 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.navbar-rodon8-icon7 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.navbar-rodon8-desktop-menu {
+  flex: 1;
+  color: #8e7c72;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+}
+.navbar-rodon8-links1 {
+  flex: 1;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.navbar-rodon8-home1 {
+  font-size: 20px;
+  font-style: normal;
+  transition: 0.3s;
+  font-family: "Raleway";
+  font-weight: 500;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.navbar-rodon8-home1:hover {
+  font-size: 23px;
+}
+.navbar-rodon8-events1 {
+  font-size: 20px;
+  font-style: normal;
+  transition: 0.3s;
+  font-family: "Raleway";
+  font-weight: 500;
+  line-height: 1.15;
+  margin-left: var(--dl-space-space-unit);
+  text-transform: none;
+  text-decoration: none;
+}
+.navbar-rodon8-events1:hover {
+  font-size: 23px;
+}
+.navbar-rodon8-description1 {
+  font-size: 20px;
+  transition: 0.3s;
+  font-family: "Raleway";
+  font-weight: 400;
+  line-height: 150%;
+  margin-left: var(--dl-space-space-unit);
+}
+.navbar-rodon8-description1:hover {
+  font-size: 23px;
+}
+.navbar-rodon8-property1 {
+  font-size: 20px;
+  transition: 0.3s;
+  font-family: "Raleway";
+  font-weight: 400;
+  line-height: 150%;
+  margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.navbar-rodon8-property1:hover {
+  font-size: 23px;
+}
+.navbar-rodon8-contact1 {
+  font-size: 20px;
+  transition: 0.3s;
+  font-family: "Raleway";
+  font-weight: 400;
+  line-height: 150%;
+  margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.navbar-rodon8-contact1:hover {
+  font-size: 23px;
+}
+@media(max-width: 991px) {
+  .navbar-rodon8-navbar-interactive {
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .navbar-rodon8-burger-menu1 {
+    display: none;
+  }
+  .navbar-rodon8-home1 {
+    margin-left: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-halfunit);
+  }
+  .navbar-rodon8-events1 {
+    font-size: 20px;
+    text-align: center;
+    margin-left: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-halfunit);
+  }
+  .navbar-rodon8-description1 {
+    text-align: center;
+    margin-left: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-halfunit);
+  }
+  .navbar-rodon8-property1 {
+    text-align: center;
+    margin-left: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-halfunit);
+  }
+  .navbar-rodon8-contact1 {
+    text-align: center;
+    margin-left: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-halfunit);
+  }
+}
+@media(max-width: 767px) {
+  .navbar-rodon8-navbar-interactive {
+    position: relative;
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .navbar-rodon8-burger-menu {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbar-rodon8-burger-menu1 {
+    fill: #bbb396;
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
+    display: flex;
+  }
+  .navbar-rodon8-mobile-menu1 {
+    top: 24px;
+    right: 32px;
+    position: absolute;
+    background-color: #ffffff;
+  }
+  .navbar-rodon8-top {
+    position: relative;
+    align-self: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .navbar-rodon8-close-menu {
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    align-self: center;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .navbar-rodon8-icon1 {
+    fill: #8e7c72;
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
+  }
+  .navbar-rodon8-links {
+    align-self: center;
+  }
+  .navbar-rodon8-home {
+    align-self: center;
+  }
+  .navbar-rodon8-events {
+    align-self: center;
+  }
+  .navbar-rodon8-description {
+    align-self: center;
+  }
+  .navbar-rodon8-property {
+    align-self: center;
+  }
+  .navbar-rodon8-contact {
+    align-self: center;
+  }
+  .navbar-rodon8-desktop-menu {
+    display: none;
+  }
+}
+@media(max-width: 479px) {
+  .navbar-rodon8-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+  }
+  .navbar-rodon8-mobile-menu1 {
+    padding: 16px;
+  }
+  .navbar-rodon8-icon1 {
+    margin-left: var(--dl-space-space-halfunit);
+  }
+}
+
+.rodon8-events-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.rodon8-events-main-container-contents {
+  flex: 0 0 auto;
+  width: 80%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.rodon8-events-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.rodon8-events-text {
+  align-self: flex-end;
+  margin-top: var(--dl-space-space-unit);
+  text-align: left;
+  line-height: 1.28;
+}
+.rodon8-events-gallery-best-weddings-top-place-athens {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.rodon8-events-row1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+  justify-content: center;
+}
+.rodon8-events-best-weddings-place-gallery-image-athens {
+  width: 45vh;
+  height: 45vh;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.rodon8-events-best-weddings-place-gallery-image-athens01 {
+  width: 45vh;
+  height: 45vh;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.rodon8-events-row2 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+  justify-content: center;
+}
+.rodon8-events-best-weddings-place-gallery-image-athens02 {
+  width: 45vh;
+  height: 45vh;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.rodon8-events-best-weddings-place-gallery-image-athens03 {
+  width: 45vh;
+  height: 45vh;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.rodon8-events-row3 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+  justify-content: center;
+}
+.rodon8-events-best-weddings-place-gallery-image-athens04 {
+  width: 45vh;
+  height: 45vh;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.rodon8-events-best-weddings-place-gallery-image-athens05 {
+  width: 45vh;
+  height: 45vh;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.rodon8-events-row4 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+  justify-content: center;
+}
+.rodon8-events-best-weddings-place-gallery-image-athens06 {
+  width: 45vh;
+  height: 45vh;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.rodon8-events-best-weddings-place-gallery-image-athens07 {
+  width: 45vh;
+  height: 45vh;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.rodon8-events-row5 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+  justify-content: center;
+}
+.rodon8-events-best-weddings-place-gallery-image-athens08 {
+  width: 45vh;
+  height: 45vh;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.rodon8-events-best-weddings-place-gallery-image-athens09 {
+  width: 45vh;
+  height: 45vh;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.rodon8-events-row6 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+  justify-content: center;
+}
+.rodon8-events-best-weddings-place-gallery-image-athens10 {
+  width: 45vh;
+  height: 45vh;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.rodon8-events-best-weddings-place-gallery-image-athens11 {
+  width: 45vh;
+  height: 45vh;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.rodon8-events-row7 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+  justify-content: center;
+}
+.rodon8-events-best-weddings-place-gallery-image-athens12 {
+  width: 45vh;
+  height: 45vh;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.rodon8-events-best-weddings-place-gallery-image-athens13 {
+  width: 45vh;
+  height: 45vh;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.rodon8-events-row8 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+  justify-content: center;
+}
+.rodon8-events-best-weddings-place-gallery-image-athens14 {
+  width: 45vh;
+  height: 45vh;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.rodon8-events-best-weddings-place-gallery-image-athens15 {
+  width: 45vh;
+  height: 45vh;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.rodon8-events-row9 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+  justify-content: center;
+}
+.rodon8-events-best-weddings-place-gallery-image-athens16 {
+  width: 45vh;
+  height: 45vh;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.rodon8-events-best-weddings-place-gallery-image-athens17 {
+  width: 45vh;
+  height: 45vh;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.rodon8-events-row10 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+  justify-content: center;
+}
+.rodon8-events-best-weddings-place-gallery-image-athens18 {
+  width: 45vh;
+  height: 45vh;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.rodon8-events-best-weddings-place-gallery-image-athens19 {
+  width: 45vh;
+  height: 45vh;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.rodon8-events-row11 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+  justify-content: center;
+}
+.rodon8-events-best-weddings-place-gallery-image-athens20 {
+  width: 45vh;
+  height: 45vh;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.rodon8-events-best-weddings-place-gallery-image-athens21 {
+  width: 45vh;
+  height: 45vh;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.rodon8-events-row12 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  margin-bottom: var(--dl-space-space-sixunits);
+  flex-direction: row;
+  justify-content: center;
+}
+.rodon8-events-best-weddings-place-gallery-image-athens22 {
+  width: 45vh;
+  height: 45vh;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.rodon8-events-best-weddings-place-gallery-image-athens23 {
+  width: 45vh;
+  height: 45vh;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+@media(max-width: 991px) {
+  .rodon8-events-best-weddings-place-gallery-image-athens {
+    width: 400px;
+    height: 400px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens01 {
+    width: 400px;
+    height: 400px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens02 {
+    width: 400px;
+    height: 400px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens03 {
+    width: 400px;
+    height: 400px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens04 {
+    width: 400px;
+    height: 400px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens05 {
+    width: 400px;
+    height: 400px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens06 {
+    width: 400px;
+    height: 400px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens07 {
+    width: 400px;
+    height: 400px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens08 {
+    width: 400px;
+    height: 400px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens09 {
+    width: 400px;
+    height: 400px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens10 {
+    width: 400px;
+    height: 400px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens11 {
+    width: 400px;
+    height: 400px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens12 {
+    width: 400px;
+    height: 400px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens13 {
+    width: 400px;
+    height: 400px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens14 {
+    width: 400px;
+    height: 400px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens15 {
+    width: 400px;
+    height: 400px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens16 {
+    width: 400px;
+    height: 400px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens17 {
+    width: 400px;
+    height: 400px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens18 {
+    width: 400px;
+    height: 400px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens19 {
+    width: 400px;
+    height: 400px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens20 {
+    width: 400px;
+    height: 400px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens21 {
+    width: 400px;
+    height: 400px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens22 {
+    width: 400px;
+    height: 400px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens23 {
+    width: 400px;
+    height: 400px;
+  }
+}
+@media(max-width: 767px) {
+  .rodon8-events-main-container-contents {
+    width: 98%;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens {
+    width: 300px;
+    height: 300px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens01 {
+    width: 300px;
+    height: 300px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens02 {
+    width: 300px;
+    height: 300px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens03 {
+    width: 300px;
+    height: 300px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens04 {
+    width: 300px;
+    height: 300px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens05 {
+    width: 300px;
+    height: 300px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens06 {
+    width: 300px;
+    height: 300px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens07 {
+    width: 300px;
+    height: 300px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens08 {
+    width: 300px;
+    height: 300px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens09 {
+    width: 300px;
+    height: 300px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens10 {
+    width: 300px;
+    height: 300px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens11 {
+    width: 300px;
+    height: 300px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens12 {
+    width: 300px;
+    height: 300px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens13 {
+    width: 300px;
+    height: 300px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens14 {
+    width: 300px;
+    height: 300px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens15 {
+    width: 300px;
+    height: 300px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens16 {
+    width: 300px;
+    height: 300px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens17 {
+    width: 300px;
+    height: 300px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens18 {
+    width: 300px;
+    height: 300px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens19 {
+    width: 300px;
+    height: 300px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens20 {
+    width: 50%;
+    height: 300px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens21 {
+    width: 300px;
+    height: 300px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens22 {
+    width: 300px;
+    height: 300px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens23 {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media(max-width: 479px) {
+  .rodon8-events-best-weddings-place-gallery-image-athens {
+    width: 200px;
+    height: 200px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens01 {
+    width: 200px;
+    height: 200px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens02 {
+    width: 200px;
+    height: 200px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens03 {
+    width: 200px;
+    height: 200px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens04 {
+    width: 200px;
+    height: 200px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens05 {
+    width: 200px;
+    height: 200px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens06 {
+    width: 200px;
+    height: 200px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens07 {
+    width: 200px;
+    height: 200px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens08 {
+    width: 200px;
+    height: 200px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens09 {
+    width: 200px;
+    height: 200px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens10 {
+    width: 200px;
+    height: 200px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens11 {
+    width: 200px;
+    height: 200px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens12 {
+    width: 200px;
+    height: 200px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens13 {
+    width: 200px;
+    height: 200px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens14 {
+    width: 200px;
+    height: 200px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens15 {
+    width: 200px;
+    height: 200px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens16 {
+    width: 200px;
+    height: 200px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens17 {
+    width: 200px;
+    height: 200px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens18 {
+    width: 200px;
+    height: 200px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens19 {
+    width: 200px;
+    height: 200px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens20 {
+    width: 200px;
+    height: 200px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens21 {
+    width: 200px;
+    height: 200px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens22 {
+    width: 200px;
+    height: 200px;
+  }
+  .rodon8-events-best-weddings-place-gallery-image-athens23 {
+    width: 200px;
+    height: 200px;
+  }
+}

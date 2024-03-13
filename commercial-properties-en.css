@@ -8,7 +8,7 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
   justify-content: flex-start;
-  background-image: linear-gradient(315deg, rgb(221, 227, 232) 1.00%,rgb(255, 249, 207) 98.00%);
+  background-color: #ffffff;
 }
 .header-navbar-interactive {
   align-self: center;
@@ -106,6 +106,7 @@
   position: absolute;
   flex-direction: column;
   justify-content: space-between;
+  background-color: #ffffff;
 }
 .header-nav {
   display: flex;
@@ -258,6 +259,7 @@
     top: 24px;
     right: 32px;
     position: absolute;
+    background-color: #ffffff;
   }
   .header-top {
     position: relative;
@@ -422,7 +424,7 @@
   align-items: flex-end;
   flex-direction: row;
   justify-content: flex-end;
-  background-image: linear-gradient(315deg, rgb(221, 227, 232) 1.00%,rgb(255, 249, 207) 98.00%);
+  background-color: #ffffff;
 }
 .footer-en-container {
   flex: 0 0 auto;
@@ -463,6 +465,7 @@
   bottom: 0px;
   position: absolute;
 }
+
 @media(max-width: 991px) {
   .footer-en-text {
     margin-right: var(--dl-space-space-halfunit);
@@ -505,7 +508,7 @@
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
-  background-image: linear-gradient(315deg, rgb(221, 227, 232) 1.00%,rgb(255, 249, 207) 98.00%);
+  background-color: #ffffff;
 }
 .commercial-properties-en-hero {
   flex: 0 0 auto;
