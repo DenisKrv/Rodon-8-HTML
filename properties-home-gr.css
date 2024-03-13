@@ -468,6 +468,7 @@
 .properties-home-gr-container4 {
   flex: 0 0 auto;
   width: 100%;
+  height: 160px;
   display: flex;
   position: relative;
   margin-top: var(--dl-space-space-oneandhalfunits);
@@ -540,6 +541,7 @@
     margin-bottom: 0px;
   }
   .properties-home-gr-container4 {
+    height: 150px;
     margin-top: 0px;
   }
   .properties-home-gr-image1 {
@@ -567,6 +569,9 @@
     width: 100%;
     height: auto;
   }
+  .properties-home-gr-container4 {
+    height: 120px;
+  }
   .properties-home-gr-container5 {
     width: 12Vh;
     height: auto;
@@ -593,6 +598,9 @@
   }
   .properties-home-gr-image {
     width: 100%;
+  }
+  .properties-home-gr-container4 {
+    height: 120px;
   }
   .properties-home-gr-container5 {
     width: 15Vh;
