@@ -418,9 +418,17 @@
     height: auto;
     align-self: stretch;
   }
+  .rodon8-main-container3 {
+    width: 97%;
+  }
   .rodon8-main-container6 {
     height: auto;
     padding-top: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .rodon8-main-container3 {
+    width: 99%;
   }
 }
