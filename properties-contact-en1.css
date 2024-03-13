@@ -324,98 +324,61 @@
   }
 }
 
-.footer-en-footer {
+.rodon8-footer-rodon8-footer {
+  flex: 0 0 auto;
   width: 100%;
+  height: auto;
   display: flex;
   z-index: 1000;
   position: relative;
-  box-shadow: 5px -5px 10px 0px rgba(0, 0, 0, 0.15);
-  margin-top: var(--dl-space-space-unit);
   align-items: flex-end;
+  padding-top: var(--dl-space-space-twounits);
   flex-direction: row;
+  padding-bottom: var(--dl-space-space-twounits);
   justify-content: center;
-  background-color: #ffffff;
+  background-color: #8c8080;
 }
-.footer-en-container {
-  flex: 0 0 auto;
-  width: 100%;
-  height: 100px;
-  display: flex;
-  align-self: flex-end;
-  align-items: flex-end;
-  padding-left: var(--dl-space-space-twounits);
-  padding-right: var(--dl-space-space-twounits);
-  justify-content: space-between;
+.rodon8-footer-text {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  line-height: 1.4;
 }
-.footer-en-text {
-  color: #8C8166;
-  align-self: center;
-  text-align: left;
-  font-family: "Arial";
-}
-.footer-en-container1 {
-  flex: 0 0 auto;
-  width: 1px;
-  display: flex;
-  align-self: stretch;
-  box-shadow: 0px 5px 10px 1px rgba(212, 212, 212, 0.74);
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  background-color: #8C8166;
-}
-.footer-en-text1 {
-  color: #8C8166;
-  align-self: center;
-  text-align: left;
-  font-family: "Arial";
-}
-
-
-.footer-en-root-class-name2 {
+.rodon8-footer-root-class-name {
+  top: 314px;
   left: 0px;
-  bottom: 0px;
-  position: absolute;
+  width: 80%;
+  position: static;
+  align-self: center;
 }
-
-
-
+.rodon8-footer-root-class-name1 {
+  top: 314px;
+  left: 0px;
+  width: 80%;
+  position: static;
+  align-self: center;
+}
+.rodon8-footer-root-class-name2 {
+  top: 314px;
+  left: 0px;
+  width: 80%;
+  position: static;
+  align-self: center;
+}
 @media(max-width: 991px) {
-  .footer-en-text {
-    margin-right: var(--dl-space-space-halfunit);
-  }
-}
-@media(max-width: 767px) {
-  .footer-en-footer {
-    align-items: stretch;
-    justify-content: space-between;
-  }
-  .footer-en-container {
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-  }
-  .footer-en-text1 {
-    margin-left: var(--dl-space-space-halfunit);
-  }
-  .footer-en-root-class-name {
-    left: 0px;
-    bottom: 0px;
-    position: absolute;
-  }
-  .footer-en-root-class-name2 {
-    left: 0px;
-    bottom: 0px;
-    position: absolute;
+  .rodon8-footer-rodon8-footer {
+    margin-top: 0px;
   }
 }
 @media(max-width: 479px) {
-  .footer-en-container {
-    padding-left: var(--dl-space-space-halfunit);
-    padding-right: var(--dl-space-space-halfunit);
+  .rodon8-footer-root-class-name1 {
+    width: 95%;
+  }
+  .rodon8-footer-root-class-name2 {
+    width: 95%;
   }
 }
 
-.properties-contact-en-container {
+.properties-contact-en1-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -424,7 +387,7 @@
   flex-direction: column;
   background-color: #ffffff;
 }
-.properties-contact-en-main-container-contents {
+.properties-contact-en1-main-container-contents {
   flex: 0 0 auto;
   width: 80%;
   height: auto;
@@ -435,7 +398,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.properties-contact-en-container1 {
+.properties-contact-en1-container1 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -444,7 +407,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.properties-contact-en-container2 {
+.properties-contact-en1-container2 {
   flex: 0 0 auto;
   width: 100%;
   height: 100px;
@@ -453,23 +416,37 @@
   flex-direction: column;
   justify-content: center;
 }
-.properties-contact-en-text {
+.properties-contact-en1-text {
   color: #8c8080;
   font-size: 1.5em;
   margin-bottom: var(--dl-space-space-unit);
 }
-.properties-contact-en-text3 {
+.properties-contact-en1-text3 {
   color: rgb(140, 128, 128);
 }
-.properties-contact-en-container3 {
+.properties-contact-en1-container3 {
   width: 100%;
   height: 55vh;
 }
-.properties-contact-en-container4 {
+.properties-contact-en1-container4 {
   display: contents;
 }
 @media(max-width: 767px) {
-  .properties-contact-en-main-container-contents {
+  .properties-contact-en1-main-container-contents {
     width: 98%;
+  }
+  .properties-contact-en1-text {
+    color: rgb(140, 129, 102);
+  }
+  .properties-contact-en1-text3 {
+    color: rgb(140, 129, 102);
+  }
+  .properties-contact-en1-container3 {
+    width: 80%;
+  }
+}
+@media(max-width: 479px) {
+  .properties-contact-en1-container3 {
+    width: 95%;
   }
 }

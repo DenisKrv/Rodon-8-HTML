@@ -43,3 +43,11 @@
     margin-top: 0px;
   }
 }
+@media(max-width: 479px) {
+  .rodon8-footer-root-class-name1 {
+    width: 95%;
+  }
+  .rodon8-footer-root-class-name2 {
+    width: 95%;
+  }
+}

@@ -211,6 +211,7 @@
 
 
 
+
 @media(max-width: 991px) {
   .header-gr-navbar-interactive {
     padding-left: var(--dl-space-space-unit);
@@ -331,7 +332,7 @@
   margin-top: var(--dl-space-space-unit);
   align-items: flex-end;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   background-color: #ffffff;
 }
 .footer-gr-container {
@@ -369,6 +370,9 @@
 }
 
 
+.footer-gr-root-class-name2 {
+  align-self: center;
+}
 
 @media(max-width: 991px) {
   .footer-gr-container {
@@ -387,6 +391,12 @@
     padding-right: var(--dl-space-space-unit);
   }
   .footer-gr-root-class-name {
+    left: 0px;
+    bottom: 0px;
+    position: absolute;
+    align-self: center;
+  }
+  .footer-gr-root-class-name2 {
     left: 0px;
     bottom: 0px;
     position: absolute;
@@ -446,8 +456,9 @@
   justify-content: center;
 }
 .properties-home-gr-image {
-  width: var(--dl-size-size-maxwidth);
+  width: 100%;
   height: auto;
+  max-width: 115vh;
   object-fit: cover;
   margin-left: var(--dl-space-space-unit);
   margin-right: var(--dl-space-space-unit);
@@ -465,7 +476,7 @@
 }
 .properties-home-gr-container5 {
   flex: 0 0 auto;
-  width: 12em;
+  width: 12Vh;
   display: flex;
   align-items: flex-start;
   margin-right: var(--dl-space-space-unit);
@@ -477,6 +488,7 @@
 .properties-home-gr-image1 {
   width: 90%;
   height: 90%;
+  opacity: 0.9;
   align-self: center;
   object-fit: cover;
   transition: 0.3s;
@@ -488,7 +500,7 @@
 }
 .properties-home-gr-container6 {
   flex: 0 0 auto;
-  width: 12em;
+  width: 12Vh;
   display: flex;
   align-items: flex-start;
   margin-left: var(--dl-space-space-halfunit);
@@ -500,6 +512,7 @@
 .properties-home-gr-image2 {
   width: 90%;
   height: 90%;
+  opacity: 0.9;
   align-self: center;
   object-fit: cover;
   transition: 0.3s;
@@ -541,6 +554,11 @@
 @media(max-width: 767px) {
   .properties-home-gr-container1 {
     height: auto;
+  }
+  .properties-home-gr-text {
+    color: rgb(140, 129, 102);
+    font-size: 1.5em;
+    font-family: Tahoma;
   }
   .properties-home-gr-container3 {
     height: auto;

@@ -388,6 +388,7 @@
 .rodon8-main-image {
   width: 100%;
   height: auto;
+  max-width: 1000px;
   object-fit: cover;
 }
 .rodon8-main-container6 {
@@ -396,6 +397,7 @@
   height: 100px;
   display: flex;
   position: relative;
+  max-width: 1000px;
   align-items: center;
   justify-content: center;
   background-color: #8c8080;
