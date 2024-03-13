@@ -321,3 +321,108 @@
     display: none;
   }
 }
+
+.rodon8-footer-rodon8-footer {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  z-index: 1000;
+  position: relative;
+  align-items: flex-end;
+  padding-top: var(--dl-space-space-twounits);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: center;
+  background-color: #8c8080;
+}
+.rodon8-footer-text {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  line-height: 1.4;
+}
+.rodon8-footer-root-class-name {
+  top: 314px;
+  left: 0px;
+  width: 80%;
+  position: static;
+  align-self: center;
+}
+.rodon8-footer-root-class-name1 {
+  top: 314px;
+  left: 0px;
+  width: 80%;
+  position: static;
+  align-self: center;
+}
+.rodon8-footer-root-class-name2 {
+  top: 314px;
+  left: 0px;
+  width: 80%;
+  position: static;
+  align-self: center;
+}
+@media(max-width: 991px) {
+  .rodon8-footer-rodon8-footer {
+    margin-top: 0px;
+  }
+}
+
+.properties-contact-gr-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.properties-contact-gr-main-container-contents {
+  flex: 0 0 auto;
+  width: 80%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.properties-contact-gr-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.properties-contact-gr-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.properties-contact-gr-text {
+  color: rgb(140, 128, 128);
+  font-size: 1.5em;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.properties-contact-gr-text3 {
+  color: rgb(140, 128, 128);
+}
+.properties-contact-gr-container3 {
+  width: 100%;
+  height: 55vh;
+}
+.properties-contact-gr-container4 {
+  display: contents;
+}
+@media(max-width: 767px) {
+  .properties-contact-gr-main-container-contents {
+    width: 98%;
+  }
+}
