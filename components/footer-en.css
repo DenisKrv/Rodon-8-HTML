@@ -74,7 +74,7 @@
   .footer-en-root-class-name {
     left: 0px;
     bottom: 0px;
-    position: absolute;
+    position: static;
   }
   .footer-en-root-class-name2 {
     left: 0px;

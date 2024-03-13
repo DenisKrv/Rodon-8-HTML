@@ -564,7 +564,7 @@
   .footer-gr-root-class-name {
     left: 0px;
     bottom: 0px;
-    position: absolute;
+    position: static;
     align-self: center;
   }
   .footer-gr-root-class-name2 {

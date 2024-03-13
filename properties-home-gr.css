@@ -393,7 +393,7 @@
   .footer-gr-root-class-name {
     left: 0px;
     bottom: 0px;
-    position: absolute;
+    position: static;
     align-self: center;
   }
   .footer-gr-root-class-name2 {
@@ -564,11 +564,11 @@
     height: auto;
   }
   .properties-home-gr-image {
-    width: 650px;
+    width: 100%;
     height: auto;
   }
   .properties-home-gr-container5 {
-    width: 150px;
+    width: 12Vh;
     height: auto;
   }
   .properties-home-gr-image1 {
@@ -576,7 +576,7 @@
     height: 90%;
   }
   .properties-home-gr-container6 {
-    width: 150px;
+    width: 12Vh;
     height: auto;
   }
   .properties-home-gr-image2 {
@@ -592,10 +592,10 @@
     height: 450px;
   }
   .properties-home-gr-image {
-    width: 450px;
+    width: 100%;
   }
   .properties-home-gr-container5 {
-    width: 120px;
+    width: 15Vh;
     height: auto;
     margin-right: var(--dl-space-space-halfunit);
   }
@@ -603,7 +603,7 @@
     width: 90%;
   }
   .properties-home-gr-container6 {
-    width: 120px;
+    width: 15Vh;
     height: auto;
     margin-right: var(--dl-space-space-halfunit);
   }
