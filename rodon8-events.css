@@ -413,9 +413,6 @@
   margin-right: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.rodon8-events-link01 {
-  display: contents;
-}
 .rodon8-events-best-weddings-place-gallery-image-athens01 {
   width: 45vh;
   height: 45vh;
@@ -437,7 +434,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.rodon8-events-link02 {
+.rodon8-events-link01 {
   display: contents;
 }
 .rodon8-events-best-weddings-place-gallery-image-athens02 {
@@ -448,135 +445,10 @@
   margin-right: var(--dl-space-space-unit);
   text-decoration: none;
 }
+.rodon8-events-link02 {
+  display: contents;
+}
 .rodon8-events-best-weddings-place-gallery-image-athens03 {
-  width: 45vh;
-  height: 45vh;
-  object-fit: cover;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.rodon8-events-row6 {
-  flex: 0 0 auto;
-  width: 100%;
-  height: auto;
-  display: flex;
-  position: relative;
-  align-self: center;
-  margin-top: var(--dl-space-space-unit);
-  align-items: center;
-  margin-bottom: var(--dl-space-space-unit);
-  flex-direction: row;
-  justify-content: center;
-}
-.rodon8-events-best-weddings-place-gallery-image-athens04 {
-  width: 45vh;
-  height: 45vh;
-  object-fit: cover;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.rodon8-events-best-weddings-place-gallery-image-athens05 {
-  width: 45vh;
-  height: 45vh;
-  object-fit: cover;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.rodon8-events-row7 {
-  flex: 0 0 auto;
-  width: 100%;
-  height: auto;
-  display: flex;
-  position: relative;
-  align-self: center;
-  margin-top: var(--dl-space-space-unit);
-  align-items: center;
-  margin-bottom: var(--dl-space-space-unit);
-  flex-direction: row;
-  justify-content: center;
-}
-.rodon8-events-best-weddings-place-gallery-image-athens06 {
-  width: 45vh;
-  height: 45vh;
-  object-fit: cover;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.rodon8-events-link03 {
-  display: contents;
-}
-.rodon8-events-best-weddings-place-gallery-image-athens07 {
-  width: 45vh;
-  height: 45vh;
-  object-fit: cover;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.rodon8-events-row3 {
-  flex: 0 0 auto;
-  width: 100%;
-  height: auto;
-  display: flex;
-  position: relative;
-  align-self: center;
-  margin-top: var(--dl-space-space-unit);
-  align-items: center;
-  margin-bottom: var(--dl-space-space-unit);
-  flex-direction: row;
-  justify-content: center;
-}
-.rodon8-events-link04 {
-  display: contents;
-}
-.rodon8-events-best-weddings-place-gallery-image-athens08 {
-  width: 45vh;
-  height: 45vh;
-  object-fit: cover;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.rodon8-events-link05 {
-  display: contents;
-}
-.rodon8-events-best-weddings-place-gallery-image-athens09 {
-  width: 45vh;
-  height: 45vh;
-  object-fit: cover;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.rodon8-events-row9 {
-  flex: 0 0 auto;
-  width: 100%;
-  height: auto;
-  display: flex;
-  position: relative;
-  align-self: center;
-  margin-top: var(--dl-space-space-unit);
-  align-items: center;
-  margin-bottom: var(--dl-space-space-unit);
-  flex-direction: row;
-  justify-content: center;
-}
-.rodon8-events-link06 {
-  display: contents;
-}
-.rodon8-events-best-weddings-place-gallery-image-athens10 {
-  width: 45vh;
-  height: 45vh;
-  object-fit: cover;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.rodon8-events-best-weddings-place-gallery-image-athens11 {
   width: 45vh;
   height: 45vh;
   object-fit: cover;
@@ -597,7 +469,77 @@
   flex-direction: row;
   justify-content: center;
 }
-.rodon8-events-best-weddings-place-gallery-image-athens12 {
+.rodon8-events-link03 {
+  display: contents;
+}
+.rodon8-events-best-weddings-place-gallery-image-athens04 {
+  width: 45vh;
+  height: 45vh;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.rodon8-events-best-weddings-place-gallery-image-athens05 {
+  width: 45vh;
+  height: 45vh;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.rodon8-events-row6 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+  justify-content: center;
+}
+.rodon8-events-link04 {
+  display: contents;
+}
+.rodon8-events-best-weddings-place-gallery-image-athens06 {
+  width: 45vh;
+  height: 45vh;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.rodon8-events-link05 {
+  display: contents;
+}
+.rodon8-events-best-weddings-place-gallery-image-athens07 {
+  width: 45vh;
+  height: 45vh;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.rodon8-events-row7 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+  justify-content: center;
+}
+.rodon8-events-link06 {
+  display: contents;
+}
+.rodon8-events-best-weddings-place-gallery-image-athens08 {
   width: 45vh;
   height: 45vh;
   object-fit: cover;
@@ -607,6 +549,67 @@
 }
 .rodon8-events-link07 {
   display: contents;
+}
+.rodon8-events-best-weddings-place-gallery-image-athens09 {
+  width: 45vh;
+  height: 45vh;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.rodon8-events-row3 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+  justify-content: center;
+}
+.rodon8-events-link08 {
+  display: contents;
+}
+.rodon8-events-best-weddings-place-gallery-image-athens10 {
+  width: 45vh;
+  height: 45vh;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.rodon8-events-best-weddings-place-gallery-image-athens11 {
+  width: 45vh;
+  height: 45vh;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.rodon8-events-row9 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+  justify-content: center;
+}
+.rodon8-events-best-weddings-place-gallery-image-athens12 {
+  width: 45vh;
+  height: 45vh;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .rodon8-events-best-weddings-place-gallery-image-athens13 {
   width: 45vh;
@@ -629,7 +632,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.rodon8-events-link08 {
+.rodon8-events-link09 {
   display: contents;
 }
 .rodon8-events-best-weddings-place-gallery-image-athens14 {
@@ -639,9 +642,6 @@
   margin-left: var(--dl-space-space-unit);
   margin-right: var(--dl-space-space-unit);
   text-decoration: none;
-}
-.rodon8-events-link09 {
-  display: contents;
 }
 .rodon8-events-best-weddings-place-gallery-image-athens15 {
   width: 45vh;
@@ -664,6 +664,9 @@
   flex-direction: row;
   justify-content: center;
 }
+.rodon8-events-link10 {
+  display: contents;
+}
 .rodon8-events-best-weddings-place-gallery-image-athens16 {
   width: 45vh;
   height: 45vh;
@@ -671,6 +674,9 @@
   margin-left: var(--dl-space-space-unit);
   margin-right: var(--dl-space-space-unit);
   text-decoration: none;
+}
+.rodon8-events-link11 {
+  display: contents;
 }
 .rodon8-events-best-weddings-place-gallery-image-athens17 {
   width: 45vh;
@@ -693,7 +699,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.rodon8-events-link10 {
+.rodon8-events-link12 {
   display: contents;
 }
 .rodon8-events-best-weddings-place-gallery-image-athens18 {
@@ -703,9 +709,6 @@
   margin-left: var(--dl-space-space-unit);
   margin-right: var(--dl-space-space-unit);
   text-decoration: none;
-}
-.rodon8-events-link11 {
-  display: contents;
 }
 .rodon8-events-best-weddings-place-gallery-image-athens19 {
   width: 45vh;
@@ -838,11 +841,11 @@
     height: 300px;
   }
   .rodon8-events-best-weddings-place-gallery-image-athens09 {
-    width: 50%;
+    width: 300px;
     height: 300px;
   }
   .rodon8-events-best-weddings-place-gallery-image-athens10 {
-    width: 300px;
+    width: 50%;
     height: 300px;
   }
   .rodon8-events-best-weddings-place-gallery-image-athens11 {
