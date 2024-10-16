@@ -12,26 +12,26 @@
   justify-content: center;
   background-color: #8c8080;
 }
-.rodon8-footer-text {
+.rodon8-footer-text1 {
   color: rgb(255, 255, 255);
   text-align: center;
   line-height: 1.4;
 }
-.rodon8-footer-root-class-name {
+.rodon8-footerroot-class-name {
   top: 314px;
   left: 0px;
   width: 80%;
   position: static;
   align-self: center;
 }
-.rodon8-footer-root-class-name1 {
+.rodon8-footerroot-class-name1 {
   top: 314px;
   left: 0px;
   width: 80%;
   position: static;
   align-self: center;
 }
-.rodon8-footer-root-class-name2 {
+.rodon8-footerroot-class-name2 {
   top: 314px;
   left: 0px;
   width: 80%;
@@ -44,10 +44,10 @@
   }
 }
 @media(max-width: 479px) {
-  .rodon8-footer-root-class-name1 {
+  .rodon8-footerroot-class-name1 {
     width: 95%;
   }
-  .rodon8-footer-root-class-name2 {
+  .rodon8-footerroot-class-name2 {
     width: 95%;
   }
 }
